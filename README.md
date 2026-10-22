@@ -53,6 +53,23 @@ BeatBrawl aims to make guitar practice more engaging by combining audio processi
 
 This is a work in progress, with new features being developed and tested incrementally.
 
+## Architecture
+
+BeatBrawl is built around microphone-based guitar input. The microphone volume monitor checks the input level, while the pitch detector analyses the audio to estimate the played note. Detected pitch is then converted into a musical note name, which can be used by the fretboard system and future gameplay mechanics.
+
+**Audio flow:** Microphone Input → Volume Monitoring → Pitch Detection → Note Identification → Fretboard Mapping → Gameplay
+
+The project is under active development. The gameplay integration and timing-based combat system are planned features.
+
+## Planned Gameplay Concept
+
+BeatBrawl aims to turn guitar practice into a fighting game. Players will control a character by playing guitar notes and rhythms, with timing and accuracy influencing attacks and combat performance. This concept is still in development.
+
+## License
+
+The project license will be added once the licensing terms have been selected.
+
+
 ## Author
 
 **Samarth Naik** — [@Sammybrimzz](https://github.com/Sammybrimzz)
