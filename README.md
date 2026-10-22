@@ -65,10 +65,6 @@ The project is under active development. The gameplay integration and timing-bas
 
 BeatBrawl aims to turn guitar practice into a fighting game. Players will control a character by playing guitar notes and rhythms, with timing and accuracy influencing attacks and combat performance. This concept is still in development.
 
-## License
-
-The project license will be added once the licensing terms have been selected.
-
 
 ## Author
 
